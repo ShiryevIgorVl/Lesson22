@@ -1,6 +1,11 @@
 public class Main {
     static int size = 4;
-
+    static String [][] arr =    {
+            {"11", "12", "13", "14"},
+            {"21", "22", "23", "24"},
+            {"31", "32", "33", "34"},
+            {"41", "42", "43", "44"},
+    };
 
     public static int arraySum(String[][] arr) throws MyArraySizeException, MyArrayDataException {
 
@@ -26,12 +31,6 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        String [][] arr =    {
-                {"11", "12", "13", "14h"},
-                {"21", "22", "23", "24"},
-                {"31", "32", "33", "34"},
-                {"41", "42", "43", "44"},
-        };
 
         try {
             System.out.println(arraySum(arr));
